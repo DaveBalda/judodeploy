@@ -1,4 +1,4 @@
-import { createHashRouter, RouterProvider } from "react-router";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import Maestri from "./pages/Maestri/Maestri";
