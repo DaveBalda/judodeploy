@@ -9,7 +9,7 @@ function Navbar({ children }: NavbarProps) {
     <header className="w-full py-5 px-5 bg-emerald-700 shadow-lg shadow-gray-400 flex flex-row items-center">
       <a href="/">
         <img
-          src="/images/navbar.png"
+          src="/judodeploy/images/navbar.png"
           alt="Navigation Bar Image"
           width="100px"
           className="rounded-md"
