@@ -11,7 +11,7 @@ function SidebarHeader({ open, setOpen }: SidebarHeaderProps) {
     <header className="w-full py-5 px-5 relative z-40 bg-emerald-700 flex flex-row items-center">
       <a href="#">
         <img
-          src="/images/navbar.png"
+          src="/judodeploy/images/navbar.png"
           alt="Navigation Bar Image"
           width="100px"
           className="rounded-md"

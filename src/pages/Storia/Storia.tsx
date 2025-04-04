@@ -6,7 +6,7 @@ function Storia() {
       <div className="flex flex-col">
         <div className="h-fit flex flex-row gap-20 items-center py-32 px-52 bg-emerald-600/50 shadow-2xl">
           <img
-            src="/images/storia/oldpic3.jpg"
+            src="/judodeploy/images/storia/oldpic3.jpg"
             width="700px"
             height="auto"
             alt="Giancarlo e Daniele"
@@ -48,12 +48,12 @@ function Storia() {
         </div>
         <div className="h-fit my-10 py-24 flex flex-row gap-20 items-center justify-center px-52">
           <img
-            src="/images/storia/oldpic1.jpg"
+            src="/judodeploy/images/storia/oldpic1.jpg"
             className="w-[auto] h-[350px] rounded-3xl"
             alt="Corso Vecchio"
           />
           <img
-            src="/images/storia/oldpic2.jpg"
+            src="/judodeploy/images/storia/oldpic2.jpg"
             className="w-[auto] h-[350px] rounded-3xl"
             alt="Corso Storico"
           />
@@ -89,7 +89,7 @@ function Storia() {
         </div>
         <div className="h-fit my-10 py-24 flex flex-row gap-20 items-center justify-center px-52">
           <img
-            src="/images/storia/corsofiero.jpeg"
+            src="/judodeploy/images/storia/corsofiero.jpeg"
             className="w-[auto] h-[400px] rounded-3xl"
             alt="Corso Ragazzi"
           />
@@ -101,7 +101,7 @@ function Storia() {
         </div>
         <div className="h-fit flex flex-row gap-20 items-center py-32 px-52 bg-emerald-600/50 shadow-2xl">
           <img
-            src="/images/storia/piegamenti.jpeg"
+            src="/judodeploy/images/storia/piegamenti.jpeg"
             width="600px"
             height="auto"
             alt="Bimbi con Medaglie"

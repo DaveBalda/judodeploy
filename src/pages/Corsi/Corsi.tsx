@@ -13,7 +13,7 @@ function Corsi() {
           <div className="corsi-row items-center">
             <div className="corsi-wrapper">
               <img
-                src="/images/corsi/bimbimedals.jpeg"
+                src="/judodeploy/images/corsi/bimbimedals.jpeg"
                 alt="Corso Elementari"
                 className="corsi-image"
               />
@@ -55,7 +55,7 @@ function Corsi() {
           <div className="corsi-row items-center">
             <div className="corsi-wrapper">
               <img
-                src="/images/corsi/bimbi.jpeg"
+                src="/judodeploy/images/corsi/bimbi.jpeg"
                 alt="Corso Avanzati"
                 className="corsi-image"
               />
@@ -98,7 +98,7 @@ function Corsi() {
           <div className="corsi-row items-center">
             <div className="corsi-wrapper">
               <img
-                src="/images/corsi/gruppograndi.jpeg"
+                src="/judodeploy/images/corsi/gruppograndi.jpeg"
                 alt="Corso Adulti"
                 className="corsi-image"
               />

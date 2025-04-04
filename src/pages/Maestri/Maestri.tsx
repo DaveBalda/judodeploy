@@ -10,7 +10,7 @@ function Maestri() {
           <div className="h-fit maestri-row-regular items-center justify-center">
             <div className="maestri-wrapper">
               <img
-                src="/images/maestri/giancarlo.png"
+                src="/judodeploy/images/maestri/giancarlo.png"
                 alt="Giancarlo Casolari"
                 className="maestri-image"
               />
@@ -134,7 +134,7 @@ function Maestri() {
           <div className="h-fit maestri-row-reversed flex flex-row-reverse gap-32 items-center justify-center">
             <div className="maestri-wrapper">
               <img
-                src="/images/maestri/daniele.jpeg"
+                src="/judodeploy/images/maestri/daniele.jpeg"
                 width="350px"
                 alt="Daniele Di Martino"
                 className="maestri-image"

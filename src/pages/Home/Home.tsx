@@ -8,7 +8,7 @@ function Home() {
         <div className="home-row-regular h-fit flex items-center justify-center py-32 bg-gray-200 shadow-2xl">
           <div className="home-wrapper">
             <img
-              src="/images/home/logo.webp"
+              src="/judodeploy/images/home/logo.webp"
               alt="Logo JCS"
               className="image"
             />
@@ -43,7 +43,7 @@ function Home() {
         <div className="home-row-reversed h-fit flex items-center justify-center py-32">
           <div className="home-wrapper">
             <img
-              src="/images/home/rossella.jpg"
+              src="/judodeploy/images/home/rossella.jpg"
               alt="Lezione"
               className="image"
             />
@@ -77,7 +77,7 @@ function Home() {
         <div className="home-row-regular h-fit flex items-center justify-center py-32 bg-emerald-600/50 shadow-2xl">
           <div className="home-wrapper">
             <img
-              src="/images/home/oldpic.jpg"
+              src="/judodeploy/images/home/oldpic.jpg"
               alt="Immagine Vecchia"
               className="image"
             />
