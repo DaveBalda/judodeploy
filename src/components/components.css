@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.jcs_navbar {
+  display: none;
+  @media (width >= 1400px) {
+    @apply block;
+  }
+}
+
+.jcs_sidebar {
+  display: none;
+  @media (width < 1400px) {
+    @apply block;
+  }
+}

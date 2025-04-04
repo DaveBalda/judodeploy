@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+.maestri-row-regular {
+  @media (width < 550px) {
+    @apply px-5 flex flex-col gap-32;
+  }
+  @media (width >= 550px) {
+    @apply px-20 flex flex-col gap-32;
+  }
+  @media (width >= 750px) {
+    @apply px-44 flex flex-col gap-32;
+  }
+  @media (width >= 1400px) {
+    @apply px-44 flex flex-row gap-32;
+  }
+}
+
+.maestri-row-regular h1 {
+  @media (width < 420px) {
+    @apply text-4xl;
+  }
+  @media (width >= 420px) {
+    @apply text-5xl;
+  }
+}
+
+.maestri-row-regular h3 {
+  @media (width < 420px) {
+    @apply text-2xl;
+  }
+  @media (width >= 420px) {
+    @apply text-3xl;
+  }
+}
+
+.maestri-row-reversed {
+  @media (width < 550px) {
+    @apply px-5 flex flex-col gap-32;
+  }
+  @media (width >= 550px) {
+    @apply px-20 flex flex-col gap-32;
+  }
+  @media (width >= 750px) {
+    @apply px-44 flex flex-col gap-32;
+  }
+  @media (width >= 1400px) {
+    @apply px-44 flex flex-row-reverse gap-32;
+  }
+}
+
+.maestri-row-reversed h1 {
+  @media (width < 420px) {
+    @apply text-4xl;
+  }
+  @media (width >= 420px) {
+    @apply text-5xl;
+  }
+}
+
+.maestri-row-reversed h3 {
+  @media (width < 420px) {
+    @apply text-2xl;
+  }
+  @media (width >= 420px) {
+    @apply text-3xl;
+  }
+}
+
+.maestri-wrapper {
+  @media (width < 475px) {
+    @apply rounded-full min-w-[300px] max-h-[300px] h-auto overflow-hidden border;
+  }
+  @media (width >= 475px) {
+    @apply rounded-full min-w-[400px] max-h-[400px] h-auto overflow-hidden border;
+  }
+}
+
+.maestri-image {
+  @media (width < 475px) {
+    @apply w-[300px] bg-gray-300;
+  }
+  @media (width >= 475px) {
+    @apply w-[400px] bg-gray-300;
+  }
+}
+
+.maestri-moreinfo {
+  @apply px-10;
+  @media (width >= 700px) {
+    @apply px-32;
+  }
+}

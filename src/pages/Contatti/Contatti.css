@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+.contatti-lower {
+  @media (width < 1200px) {
+    @apply flex flex-col gap-10 px-10;
+  }
+  @media (width >= 1200px) {
+    @apply flex flex-row gap-10 px-20;
+  }
+}
+
+.contatti-upper {
+  @apply px-32;
+  @media (width < 740px) {
+    @apply px-10;
+  }
+}
+
+.contatti-form {
+  @apply px-10 py-10;
+  @media (width < 450px) {
+    @apply px-2 py-2;
+  }
+}
+
+.contatti-map {
+  @media (width < 450px) {
+    @apply h-[400px];
+  }
+}
+
+.icons-large {
+  @apply flex flex-row;
+  @media (width < 1150px) {
+    @apply hidden;
+  }
+}
+
+.icons-small {
+  @apply flex flex-col;
+  @media (width > 1150px) {
+    @apply hidden;
+  }
+}

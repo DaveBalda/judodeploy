@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.corsi-row {
+  @apply flex flex-row gap-24;
+  @media (width < 1150px) {
+    @apply flex flex-col gap-10;
+  }
+}
+
+.corsi-wrapper {
+  @apply rounded-xl w-[700px] max-h-[700px] h-auto overflow-hidden border;
+  @media (width < 1150px) {
+    @apply w-[500px] max-h-[500px];
+  }
+  @media (width < 590px) {
+    @apply w-[400px] max-h-[400px];
+  }
+  @media (width < 475px) {
+    @apply w-[300px] max-h-[300px];
+  }
+  @media (width < 410px) {
+    @apply hidden;
+  }
+}
+
+.corsi-image {
+  @apply w-full;
+}

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* ------------------- */
+/*        Menu         */
+/* ------------------- */
+.sb-menu {
+  @apply w-fit;
+  @apply rounded-md;
+}
+
+.sb-menu.active {
+  display: block;
+  @apply px-10 py-4;
+  @apply border-l border-r border-emerald-800 rounded-md;
+}
+
+.sb-menu.inactive {
+  display: none;
+}
+
+/* ------------------- */
+/*       Trigger       */
+/* ------------------- */
+.sb-trigger {
+  @apply flex flex-row gap-2 justify-center items-center;
+}
+
+.sb-content.full {
+  @apply w-80;
+  @media (width < 580px) {
+    @apply w-full;
+  }
+}

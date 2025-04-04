@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+.home-row-regular {
+  @media (width < 550px) {
+    @apply px-6 flex-col gap-32;
+  }
+  @media (width >= 550px) {
+    @apply px-20 flex-col gap-32;
+  }
+  @media (width >= 1000px) {
+    @apply px-40 flex-col gap-32;
+  }
+
+  /* Small Laptop to Large */
+  @media (width >= 1400px) {
+    @apply px-20 flex-row gap-10;
+  }
+  @media (width >= 1500px) {
+    @apply px-32 flex-row gap-20;
+  }
+  @media (width >= 1525px) {
+    @apply px-44 flex-row gap-32;
+  }
+}
+
+.home-row-regular h1 {
+  @media (width < 550px) {
+    @apply text-4xl/15;
+  }
+}
+
+.home-row-reversed {
+  @media (width < 550px) {
+    @apply px-6 flex-col gap-32;
+  }
+  @media (width >= 550px) {
+    @apply px-20 flex-col gap-32;
+  }
+  @media (width >= 1000px) {
+    @apply px-40 flex-col gap-32;
+  }
+
+  /* Small Laptop to Large */
+  @media (width >= 1400px) {
+    @apply px-20 flex-row-reverse gap-10;
+  }
+  @media (width >= 1500px) {
+    @apply px-32 flex-row-reverse gap-20;
+  }
+  @media (width >= 1525px) {
+    @apply px-44 flex-row-reverse gap-32;
+  }
+}
+
+.home-row-reversed h1 {
+  @media (width < 550px) {
+    @apply text-4xl/15;
+  }
+}
+
+.home-wrapper {
+  @media (width < 375px) {
+    @apply w-[250px] flex overflow-hidden rounded-2xl justify-center;
+  }
+  @media (width >= 375px) {
+    @apply w-[350px] flex overflow-hidden rounded-2xl justify-center;
+  }
+  @media (width >= 500px) {
+    @apply w-[400px] flex overflow-hidden rounded-2xl justify-center;
+  }
+  @media (width >= 700px) {
+    @apply w-[600px] flex overflow-hidden rounded-2xl justify-center;
+  }
+  @media (width >= 900px) {
+    @apply w-[800px] flex overflow-hidden rounded-2xl justify-center;
+  }
+
+  /* Small Laptop to Large */
+  @media (width >= 1400px) {
+    @apply min-w-[600px] flex overflow-hidden rounded-2xl justify-center;
+  }
+}
+
+.home-wrapper .image {
+  @media (width < 375px) {
+    @apply w-[250px] flex overflow-hidden rounded-2xl justify-center;
+  }
+  @media (width >= 375px) {
+    @apply w-[350px];
+  }
+  @media (width >= 500px) {
+    @apply w-[400px];
+  }
+  @media (width >= 700px) {
+    @apply w-[600px];
+  }
+  @media (width >= 900px) {
+    @apply w-[800px];
+  }
+
+  /* Small Laptop to Large */
+  @media (width >= 1400px) {
+    @apply w-[600px];
+  }
+}
