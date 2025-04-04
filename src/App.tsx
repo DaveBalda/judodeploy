@@ -14,23 +14,23 @@ const router = createBrowserRouter([
     errorElement: <NotFound>Sembra che la pagina non esista!</NotFound>,
   },
   {
-    path: "/judodeploy/home",
+    path: "/home",
     element: <Home />,
   },
   {
-    path: "/judodeploy/maestri",
+    path: "/maestri",
     element: <Maestri />,
   },
   {
-    path: "/judodeploy/storia",
+    path: "/storia",
     element: <Storia />,
   },
   {
-    path: "/judodeploy/corsi",
+    path: "/corsi",
     element: <Corsi />,
   },
   {
-    path: "/judodeploy/contatti",
+    path: "/contatti",
     element: <Contatti />,
   },
   {
