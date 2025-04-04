@@ -1,4 +1,4 @@
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import Maestri from "./pages/Maestri/Maestri";
@@ -7,7 +7,7 @@ import Storia from "./pages/Storia/Storia";
 import Corsi from "./pages/Corsi/Corsi";
 import Contatti from "./pages/Contatti/Contatti";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
@@ -32,6 +32,10 @@ const router = createHashRouter([
   {
     path: "/contatti",
     element: <Contatti />,
+  },
+  {
+    path: "*",
+    element: <NotFound>Sembra che la pagina non esista!</NotFound>,
   },
 ]);
 
